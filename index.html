@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Lakhan bhai ka Audio Recorder</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fc;
+            color: #333;
+            text-align: center;
+            padding: 40px;
+        }
+        h1 {
+            color: #040002;
+            font-size: 36px;
+        }
+
+        /* Button Styles */
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        #startRecord {
+            background-color: #05e70c;
+            color: rgb(150, 117, 117);
+        }
+        #startRecord:hover {
+            background-color: #06ed0e;
+        }
+        #stopRecord {
+            background-color: #0b0202;
+            color: white;
+        }
+        #stopRecord:hover {
+            background-color: #e53935;
+        }
+
+        /* Status Text */
+        #status {
+            font-size: 18px;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        /* Audio Controls */
+        audio {
+            margin-top: 20px;
+            width: 80%;
+            max-width: 500px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1> lakhan Record Your Voice</h1>
+    <button id="startRecord">Start Recording</button>
+    <button id="stopRecord" style="display: none;">Stop Recording</button>
+    <p id="status">Press the 'Start Recording' button to begin.</p>
+
+    <script>
+        let recorder;
+        let audioStream;
+        let audioBlob;
+        let audioUrl;
+
+        // Start recording function
+        document.getElementById("startRecord").onclick = async () => {
+            audioStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+            recorder = new MediaRecorder(audioStream);
+            recorder.ondataavailable = (e) => {
+                audioBlob = e.data;
+                audioUrl = URL.createObjectURL(audioBlob);
+                const audio = new Audio(audioUrl);
+                audio.controls = true;
+                document.body.appendChild(audio);
+            };
+            recorder.start();
+            document.getElementById("startRecord").style.display = 'none';
+            document.getElementById("stopRecord").style.display = 'inline-block';
+            document.getElementById("status").innerText = "Recording...";
+        };
+
+        // Stop recording function
+        document.getElementById("stopRecord").onclick = () => {
+            recorder.stop();
+            audioStream.getTracks().forEach(track => track.stop());
+            document.getElementById("startRecord").style.display = 'inline-block';
+            document.getElementById("stopRecord").style.display = 'none';
+            document.getElementById("status").innerText = "Recording stopped. Audio ready for upload.";
+
+            // Call the upload function after recording stops
+            uploadAudio();
+        };
+
+        // Function to upload audio to the server
+        async function uploadAudio() {
+            const formData = new FormData();
+            formData.append('audio', audioBlob, 'recording.wav');
+
+            try {
+                const response = await fetch('/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+                if (response.ok) {
+                    document.getElementById("status").innerText = "Audio uploaded successfully!";
+                } else {
+                    document.getElementById("status").innerText = "Audio upload failed!";
+                }
+            } catch (error) {
+                console.error('Error uploading audio:', error);
+                document.getElementById("status").innerText = "Error uploading audio.";
+            }
+        }
+    </script>
+
+</body>
+</html>
