@@ -20,7 +20,6 @@ def upload_audio():
     # Validate MIME type
     if audio_file.content_type not in ['audio/wav', 'audio/x-wav']:
         return 'Invalid file format. Only WAV files are supported.', 400
-
     file_path = os.path.join(UPLOAD_FOLDER, audio_file.filename)
     audio_file.save(file_path)
     return 'Audio uploaded successfully!', 200
