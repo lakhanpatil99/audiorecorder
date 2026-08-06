@@ -1,0 +1,95 @@
+
+> Configure project :sdk
+Configure OpenCV with Kotlin
+OpenCV: 4.12.0 D:\Antigravity Projects\tests\LockletPro\sdk\build.gradle
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :sdk:preBuild UP-TO-DATE
+> Task :sdk:preDebugBuild UP-TO-DATE
+> Task :sdk:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:processDebugGoogleServices UP-TO-DATE
+> Task :sdk:generateDebugResValues UP-TO-DATE
+> Task :sdk:generateDebugResources UP-TO-DATE
+> Task :sdk:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :sdk:extractDeepLinksDebug UP-TO-DATE
+> Task :sdk:processDebugManifest UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :sdk:compileDebugLibraryResources UP-TO-DATE
+> Task :sdk:parseDebugLocalResources UP-TO-DATE
+> Task :sdk:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :sdk:checkKotlinGradlePluginConfigurationErrors
+> Task :sdk:generateDebugBuildConfig UP-TO-DATE
+> Task :sdk:compileDebugKotlin UP-TO-DATE
+> Task :sdk:javaPreCompileDebug UP-TO-DATE
+> Task :sdk:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sdk:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :sdk:mergeDebugShaders UP-TO-DATE
+> Task :sdk:compileDebugShaders NO-SOURCE
+> Task :sdk:generateDebugAssets UP-TO-DATE
+> Task :sdk:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :sdk:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :sdk:processDebugJavaRes UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :sdk:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :sdk:configureCMakeDebug[arm64-v8a]
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :sdk:buildCMakeDebug[arm64-v8a][opencv_jni_shared]
+> Task :sdk:configureCMakeDebug[armeabi-v7a]
+> Task :sdk:buildCMakeDebug[armeabi-v7a][opencv_jni_shared]
+> Task :sdk:configureCMakeDebug[x86]
+> Task :sdk:buildCMakeDebug[x86][opencv_jni_shared]
+> Task :sdk:configureCMakeDebug[x86_64]
+> Task :sdk:buildCMakeDebug[x86_64][opencv_jni_shared]
+> Task :sdk:mergeDebugJniLibFolders UP-TO-DATE
+> Task :sdk:mergeDebugNativeLibs UP-TO-DATE
+> Task :sdk:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :sdk:stripDebugDebugSymbols UP-TO-DATE
+> Task :sdk:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :sdk:extractDebugAnnotations UP-TO-DATE
+> Task :sdk:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :sdk:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :sdk:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :sdk:externalNativeBuildDebug
+> Task :sdk:generateJsonModelDebug
+> Task :sdk:prefabDebugConfigurePackage UP-TO-DATE
+> Task :sdk:prefabDebugPackage UP-TO-DATE
+> Task :sdk:prepareDebugArtProfile UP-TO-DATE
+> Task :sdk:prepareLintJarForPublish UP-TO-DATE
+> Task :sdk:mergeDebugJavaResource UP-TO-DATE
+> Task :sdk:syncDebugLibJars UP-TO-DATE
+> Task :sdk:bundleDebugAar UP-TO-DATE
+> Task :sdk:assembleDebug UP-TO-DATE
+> Task :app:compileDebugKotlin
+
+> Task :app:compileDebugKotlin FAILED
+74 actionable tasks: 12 executed, 62 up-to-date

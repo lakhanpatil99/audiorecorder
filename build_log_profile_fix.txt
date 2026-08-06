@@ -1,0 +1,77 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:processDebugGoogleServices UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:processDebugManifestForPackage
+> Task :app:processDebugResources
+> Task :app:compileDebugKotlin
+e: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/data/SupabaseClientProvider.kt:28:1 Expecting a top level declaration
+e: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/data/repository/UserRepository.kt:66:1 Expecting a top level declaration
+e: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/data/repository/UserRepository.kt:55:17 Unresolved reference: client
+e: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/data/repository/UserRepository.kt:56:21 Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public inline fun <T> Array<out TypeVariable(T)>.filter(predicate: (TypeVariable(T)) -> Boolean): List<TypeVariable(T)> defined in kotlin.collections
+public inline fun BooleanArray.filter(predicate: (Boolean) -> Boolean): List<Boolean> defined in kotlin.collections
+public inline fun ByteArray.filter(predicate: (Byte) -> Boolean): List<Byte> defined in kotlin.collections
+public inline fun CharArray.filter(predicate: (Char) -> Boolean): List<Char> defined in kotlin.collections
+public inline fun CharSequence.filter(predicate: (Char) -> Boolean): CharSequence defined in kotlin.text
+public inline fun DoubleArray.filter(predicate: (Double) -> Boolean): List<Double> defined in kotlin.collections
+public inline fun FloatArray.filter(predicate: (Float) -> Boolean): List<Float> defined in kotlin.collections
+public inline fun IntArray.filter(predicate: (Int) -> Boolean): List<Int> defined in kotlin.collections
+public inline fun LongArray.filter(predicate: (Long) -> Boolean): List<Long> defined in kotlin.collections
+public inline fun ShortArray.filter(predicate: (Short) -> Boolean): List<Short> defined in kotlin.collections
+public inline fun String.filter(predicate: (Char) -> Boolean): String defined in kotlin.text
+public inline fun UByteArray.filter(predicate: (UByte) -> Boolean): List<UByte> defined in kotlin.collections
+public inline fun UIntArray.filter(predicate: (UInt) -> Boolean): List<UInt> defined in kotlin.collections
+public inline fun ULongArray.filter(predicate: (ULong) -> Boolean): List<ULong> defined in kotlin.collections
+public inline fun UShortArray.filter(predicate: (UShort) -> Boolean): List<UShort> defined in kotlin.collections
+public inline fun <T> Iterable<TypeVariable(T)>.filter(predicate: (TypeVariable(T)) -> Boolean): List<TypeVariable(T)> defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.filter(predicate: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Boolean): Map<TypeVariable(K), TypeVariable(V)> defined in kotlin.collections
+public fun <T> Sequence<TypeVariable(T)>.filter(predicate: (TypeVariable(T)) -> Boolean): Sequence<TypeVariable(T)> defined in kotlin.sequences
+e: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/data/repository/UserRepository.kt:57:25 Unresolved reference: eq
+e: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/viewmodel/ProfileViewModel.kt:64:51 Unresolved reference: getUser
+
+> Task :app:compileDebugKotlin FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 59s
+27 actionable tasks: 6 executed, 21 up-to-date

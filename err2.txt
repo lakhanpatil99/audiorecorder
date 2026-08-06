@@ -1,0 +1,85 @@
+
+> Configure project :sdk
+Configure OpenCV with Kotlin
+OpenCV: 4.12.0 D:\Antigravity Projects\tests\LockletPro\sdk\build.gradle
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :sdk:preBuild UP-TO-DATE
+> Task :sdk:preDebugBuild UP-TO-DATE
+> Task :sdk:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:processDebugGoogleServices UP-TO-DATE
+> Task :sdk:generateDebugResValues UP-TO-DATE
+> Task :sdk:generateDebugResources UP-TO-DATE
+> Task :sdk:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :sdk:extractDeepLinksDebug UP-TO-DATE
+> Task :sdk:processDebugManifest UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :sdk:compileDebugLibraryResources UP-TO-DATE
+> Task :sdk:parseDebugLocalResources UP-TO-DATE
+> Task :sdk:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :sdk:checkKotlinGradlePluginConfigurationErrors
+> Task :sdk:generateDebugBuildConfig UP-TO-DATE
+> Task :sdk:compileDebugKotlin UP-TO-DATE
+> Task :sdk:javaPreCompileDebug UP-TO-DATE
+> Task :sdk:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sdk:bundleLibCompileToJarDebug UP-TO-DATE
+
+> Task :app:compileDebugKotlin
+e: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/data/repository/DocumentRepository.kt:19:41 Unresolved reference: invoke
+e: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/data/repository/DocumentRepository.kt:122:32 Not enough information to infer type variable T
+e: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/data/repository/DocumentRepository.kt:140:33 Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public operator fun <T, R> DeepRecursiveFunction<TypeVariable(T), TypeVariable(R)>.invoke(value: TypeVariable(T)): TypeVariable(R) defined in kotlin
+e: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/data/repository/DocumentRepository.kt:141:37 Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public fun <T : kotlin.text.Appendable /* = java.lang.Appendable */> TypeVariable(T).append(vararg value: CharSequence?): TypeVariable(T) defined in kotlin.text
+public inline fun kotlin.text.StringBuilder /* = java.lang.StringBuilder */.append(obj: Any?): kotlin.text.StringBuilder /* = java.lang.StringBuilder */ defined in kotlin.text
+public fun kotlin.text.StringBuilder /* = java.lang.StringBuilder */.append(vararg value: Any?): kotlin.text.StringBuilder /* = java.lang.StringBuilder */ defined in kotlin.text
+public fun kotlin.text.StringBuilder /* = java.lang.StringBuilder */.append(vararg value: String?): kotlin.text.StringBuilder /* = java.lang.StringBuilder */ defined in kotlin.text
+public inline fun kotlin.text.StringBuilder /* = java.lang.StringBuilder */.append(str: CharArray, offset: Int, len: Int): kotlin.text.StringBuilder /* = java.lang.StringBuilder */ defined in kotlin.text
+e: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/data/repository/DocumentRepository.kt:145:51 Unresolved reference: decodeAs
+e: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/data/repository/DocumentRepository.kt:149:49 Not enough information to infer type variable T
+e: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/subscription/SubscriptionHistoryScreen.kt:36:41 Unresolved reference: invoke
+e: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/subscription/SubscriptionHistoryScreen.kt:42:25 Conflicting import, imported name 'DateTimeFormatter' is ambiguous
+e: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/subscription/SubscriptionHistoryScreen.kt:43:25 Conflicting import, imported name 'DateTimeFormatter' is ambiguous
+e: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/subscription/SubscriptionHistoryScreen.kt:76:21 Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public operator fun <T, R> DeepRecursiveFunction<TypeVariable(T), TypeVariable(R)>.invoke(value: TypeVariable(T)): TypeVariable(R) defined in kotlin
+e: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/subscription/SubscriptionHistoryScreen.kt:77:25 Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+public fun <T : kotlin.text.Appendable /* = java.lang.Appendable */> TypeVariable(T).append(vararg value: CharSequence?): TypeVariable(T) defined in kotlin.text
+public inline fun kotlin.text.StringBuilder /* = java.lang.StringBuilder */.append(obj: Any?): kotlin.text.StringBuilder /* = java.lang.StringBuilder */ defined in kotlin.text
+public fun kotlin.text.StringBuilder /* = java.lang.StringBuilder */.append(vararg value: Any?): kotlin.text.StringBuilder /* = java.lang.StringBuilder */ defined in kotlin.text
+public fun kotlin.text.StringBuilder /* = java.lang.StringBuilder */.append(vararg value: String?): kotlin.text.StringBuilder /* = java.lang.StringBuilder */ defined in kotlin.text
+public inline fun kotlin.text.StringBuilder /* = java.lang.StringBuilder */.append(str: CharArray, offset: Int, len: Int): kotlin.text.StringBuilder /* = java.lang.StringBuilder */ defined in kotlin.text
+e: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/subscription/SubscriptionHistoryScreen.kt:81:39 Unresolved reference: decodeAs
+e: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/subscription/SubscriptionHistoryScreen.kt:86:53 Not enough information to infer type variable T
+
+> Task :app:compileDebugKotlin FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 5s
+30 actionable tasks: 3 executed, 27 up-to-date

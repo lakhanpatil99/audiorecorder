@@ -1,0 +1,156 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.5/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+.\gradlew.bat : 
+Warning: SDK 
+processing. This 
+version only 
+understands SDK XML 
+versions up to 3 but 
+an SDK XML file of 
+version 4 was 
+encountered. This 
+can happen if you 
+use versions of 
+Android Studio and 
+the command-line 
+tools that were 
+released at 
+different times.
+At line:1 char:1
++ .\gradlew.bat 
+assembleDebug 
+--no-daemon 2>&1 | 
+ForEach-Object { $_ 
+}  ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Warning   
+ : SDK pr...iffer    
+ent times.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:processDebugGoogleServices UP-TO-DATE
+> Task :app:checkDebugAarMetadata
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:processDebugManifestForPackage
+> Task :app:checkDebugDuplicateClasses
+> Task :app:processDebugResources
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeExtDexDebug
+> Task :app:compileDebugKotlin
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/components/FilterSortBar.kt:128:52 'Sort: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Sort
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/auth/ForgotPasswordScreen.kt:62:38 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/DocumentDetailScreen.kt:75:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/DocumentsScreen.kt:47:5 Parameter 'onUploadClick' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/DocumentsScreen.kt:88:90 'ViewList: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ViewList
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/UploadDocumentScreen.kt:60:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/UploadDocumentScreen.kt:208:41 'Notes: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Notes
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/UploadDocumentScreen.kt:377:28 Parameter 'isDark' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/UploadDocumentScreen.kt:466:5 Parameter 'imageUri' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/UploadDocumentScreen.kt:714:5 Parameter 'isDark' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/UploadDocumentScreen.kt:783:5 Parameter 'isDark' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/UploadDocumentScreen.kt:856:33 Parameter 'isDark' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/UploadDocumentScreen.kt:929:5 Parameter 'isDark' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/home/HomeScreen.kt:43:5 Parameter 'onNavigateToProfile' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/home/HomeScreen.kt:44:5 Parameter 'onNavigateToSettings' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/profile/ProfileScreen.kt:48:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/profile/ProfileScreen.kt:173:35 'ExitToApp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ExitToApp
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/settings/SecuritySettingsScreen.kt:58:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/settings/SettingsScreen.kt:41:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/settings/SettingsScreen.kt:174:35 'Logout: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Logout
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/splash/SplashScreen.kt:44:9 Variable 'scaleAnim' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/utils/Constants.kt:28:44 'InsertDriveFile: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.InsertDriveFile
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/viewmodel/DocumentsViewModel.kt:93:24 Parameter 'documentId' is never used
+
+> Task :app:compileDebugKotlin FAILED
+w: Detected multiple Kotlin daemon sessions at kotlin\sessions
+
+FAILURE: Build 
+failed with an 
+exception.
+
+* What went wrong:
+Execution failed for 
+task ':app:compileDeb
+ugKotlin'.
+> Cannot access 
+output property 'dest
+inationDirectory' of 
+task ':app:compileDeb
+ugKotlin'. Accessing 
+unreadable inputs or 
+outputs is not 
+supported. Declare 
+the task as 
+untracked by using Ta
+sk.doNotTrackState().
+ For more 
+information, please 
+refer to https://docs
+.gradle.org/8.5/userg
+uide/incremental_buil
+d.html#disable-state-
+tracking in the 
+Gradle documentation.
+   > Failed to 
+create MD5 hash for 
+file 'D:\Antigravity 
+Projects\tests\Lockle
+tPro\app\build\tmp\ko
+tlin-classes\debug\co
+m\lockletpro\ui\compo
+nents\FilterSortBarKt
+$FilterSortBar$1$2$1$
+1.class' as it does 
+not exist.
+
+* Try:
+> Run with 
+--stacktrace option 
+to get the stack 
+trace.
+> Run with --info or 
+--debug option to 
+get more log output.
+> Run with --scan to 
+get full insights.
+> Get more help at ht
+tps://help.gradle.org
+.
+
+BUILD FAILED in 2m 
+24s
+29 actionable tasks: 13 executed, 16 up-to-date

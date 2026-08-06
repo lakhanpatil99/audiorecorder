@@ -1,0 +1,79 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.5/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+.\gradlew.bat : 
+Warning: SDK 
+processing. This 
+version only 
+understands SDK XML 
+versions up to 3 but 
+an SDK XML file of 
+version 4 was 
+encountered. This 
+can happen if you 
+use versions of 
+Android Studio and 
+the command-line 
+tools that were 
+released at 
+different times.
+At line:1 char:1
++ .\gradlew.bat 
+assembleDebug 
+--no-daemon 2>&1 | 
+ForEach-Object { $_ 
+}  ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Warning   
+ : SDK pr...iffer    
+ent times.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:checkDebugAarMetadata FAILED
+
+FAILURE: Build 
+failed with an 
+exception.
+
+* What went wrong:
+Execution failed for 
+task ':app:checkDebug
+AarMetadata'.
+> Could not resolve 
+all files for 
+configuration ':app:d
+ebugRuntimeClasspath'
+.
+   > Could not find c
+om.google.firebase:fi
+rebase-auth-ktx:.
+     Required by:
+         project :app
+
+* Try:
+> Run with 
+--stacktrace option 
+to get the stack 
+trace.
+> Run with --info or 
+--debug option to 
+get more log output.
+> Run with --scan to 
+get full insights.
+> Get more help at ht
+tps://help.gradle.org
+.
+
+BUILD FAILED in 12s
+2 actionable tasks: 2 executed

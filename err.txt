@@ -1,0 +1,174 @@
+
+> Configure project :sdk
+Configure OpenCV with Kotlin
+OpenCV: 4.12.0 D:\Antigravity Projects\tests\LockletPro\sdk\build.gradle
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :sdk:preBuild UP-TO-DATE
+> Task :sdk:preDebugBuild UP-TO-DATE
+> Task :sdk:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:processDebugGoogleServices UP-TO-DATE
+> Task :sdk:generateDebugResValues UP-TO-DATE
+> Task :sdk:generateDebugResources UP-TO-DATE
+> Task :sdk:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :sdk:extractDeepLinksDebug UP-TO-DATE
+> Task :sdk:processDebugManifest UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :sdk:compileDebugLibraryResources UP-TO-DATE
+> Task :sdk:parseDebugLocalResources UP-TO-DATE
+> Task :sdk:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :sdk:checkKotlinGradlePluginConfigurationErrors
+> Task :sdk:generateDebugBuildConfig UP-TO-DATE
+> Task :sdk:compileDebugKotlin UP-TO-DATE
+> Task :sdk:javaPreCompileDebug UP-TO-DATE
+> Task :sdk:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sdk:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :sdk:mergeDebugShaders UP-TO-DATE
+> Task :sdk:compileDebugShaders NO-SOURCE
+> Task :sdk:generateDebugAssets UP-TO-DATE
+> Task :sdk:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :sdk:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :sdk:processDebugJavaRes UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :sdk:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+
+> Task :sdk:configureCMakeDebug[arm64-v8a]
+[CXX5304] Observed package id 'emulator' in inconsistent location 'C:\Users\Lakhansing\AppData\Local\Android\Sdk\emulator.backup' (Expected 'C:\Users\Lakhansing\AppData\Local\Android\Sdk\emulator')
+[CXX5304] Observed package id 'emulator' in inconsistent location 'C:\Users\Lakhansing\AppData\Local\Android\Sdk\emulator.backup' (Expected 'C:\Users\Lakhansing\AppData\Local\Android\Sdk\emulator')
+[CXX5304] Already observed package id 'emulator' in 'C:\Users\Lakhansing\AppData\Local\Android\Sdk\emulator'. Skipping duplicate at 'C:\Users\Lakhansing\AppData\Local\Android\Sdk\emulator.backup'
+[CXX5304] Already observed package id 'emulator' in 'C:\Users\Lakhansing\AppData\Local\Android\Sdk\emulator'. Skipping duplicate at 'C:\Users\Lakhansing\AppData\Local\Android\Sdk\emulator.backup'
+[CXX5304] package.xml parsing problem. unexpected element (uri:"", local:"abis"). Expected elements are <{}vendor>,<{}codename>,<{}base-extension>,<{}abi>,<{}api-level>,<{}extension-level>,<{}tag>
+[CXX5304] package.xml parsing problem. unexpected element (uri:"", local:"abis"). Expected elements are <{}vendor>,<{}codename>,<{}base-extension>,<{}abi>,<{}api-level>,<{}extension-level>,<{}tag>
+[CXX5304] package.xml parsing problem. unexpected element (uri:"", local:"translatedAbis"). Expected elements are <{}vendor>,<{}codename>,<{}base-extension>,<{}abi>,<{}api-level>,<{}extension-level>,<{}tag>
+[CXX5304] package.xml parsing problem. unexpected element (uri:"", local:"translatedAbis"). Expected elements are <{}vendor>,<{}codename>,<{}base-extension>,<{}abi>,<{}api-level>,<{}extension-level>,<{}tag>
+
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :sdk:buildCMakeDebug[arm64-v8a][opencv_jni_shared]
+> Task :sdk:configureCMakeDebug[armeabi-v7a]
+> Task :sdk:buildCMakeDebug[armeabi-v7a][opencv_jni_shared]
+> Task :sdk:configureCMakeDebug[x86]
+> Task :sdk:buildCMakeDebug[x86][opencv_jni_shared]
+> Task :sdk:configureCMakeDebug[x86_64]
+> Task :sdk:buildCMakeDebug[x86_64][opencv_jni_shared]
+> Task :sdk:mergeDebugJniLibFolders UP-TO-DATE
+> Task :sdk:mergeDebugNativeLibs UP-TO-DATE
+> Task :sdk:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :sdk:stripDebugDebugSymbols UP-TO-DATE
+> Task :sdk:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :sdk:extractDebugAnnotations UP-TO-DATE
+> Task :sdk:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :sdk:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :sdk:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :sdk:externalNativeBuildDebug
+> Task :sdk:generateJsonModelDebug
+> Task :sdk:prefabDebugConfigurePackage UP-TO-DATE
+> Task :sdk:prefabDebugPackage UP-TO-DATE
+> Task :sdk:prepareDebugArtProfile UP-TO-DATE
+> Task :sdk:prepareLintJarForPublish UP-TO-DATE
+> Task :sdk:mergeDebugJavaResource UP-TO-DATE
+> Task :sdk:syncDebugLibJars UP-TO-DATE
+> Task :sdk:bundleDebugAar UP-TO-DATE
+> Task :sdk:assembleDebug UP-TO-DATE
+> Task :app:compileDebugKotlin
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/data/repository/DocumentRepository.kt:151:85 Elvis operator (?:) always returns the left operand of non-nullable type String
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/data/repository/UserRepository.kt:94:25 Parameter 'firebaseUid' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/components/FilterSortBar.kt:128:52 'Sort: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Sort
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/components/card/DigitalDocumentCard.kt:116:89 Unnecessary non-null assertion (!!) on a non-null receiver of type String
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/components/card/DigitalDocumentCard.kt:131:9 Variable 'backgroundColor' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/activity/ActivityLogScreen.kt:46:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/auth/ForgotPasswordScreen.kt:62:38 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/backup/CloudBackupScreen.kt:52:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/DocumentDetailScreen.kt:134:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/DocumentDetailScreen.kt:303:33 Condition 'document != null' is always 'true'
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/DocumentsScreen.kt:62:5 Parameter 'onUploadClick' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/DocumentsScreen.kt:203:90 'ViewList: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ViewList
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/PreviewScreen.kt:58:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/PreviewScreen.kt:126:9 Variable 'rendererScope' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/ReminderStatusCard.kt:83:17 Condition 'expiryDateString != null' is always 'true'
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/UploadDocumentScreen.kt:113:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/UploadDocumentScreen.kt:299:41 'Notes: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Notes
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/UploadDocumentScreen.kt:338:21 Name shadowed: context
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/UploadDocumentScreen.kt:470:28 Parameter 'isDark' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/home/HomeScreen.kt:63:5 Parameter 'onNavigateToSettings' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/notifications/NotificationsScreen.kt:74:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/notifications/NotificationsScreen.kt:320:37 Parameter 'isDark' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/profile/PrivacyPolicyScreen.kt:56:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/profile/ProfileScreen.kt:54:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/profile/ProfileScreen.kt:183:35 'ExitToApp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ExitToApp
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/profile/TermsConditionsScreen.kt:56:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/scanner/ManualCropScreen.kt:150:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/scanner/ScanDocumentScreen.kt:462:47 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/scanner/ScanDocumentScreen.kt:485:25 Variable 'offset' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/scanner/ScanDocumentScreen.kt:840:47 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/settings/SecuritySettingsScreen.kt:62:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/settings/SettingsScreen.kt:48:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/settings/SettingsScreen.kt:194:35 'Logout: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Logout
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/splash/SplashScreen.kt:46:9 Variable 'scaleAnim' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/subscription/SubscriptionScreen.kt:53:9 Variable 'savings' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/subscription/SubscriptionScreen.kt:61:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/subscription/SubscriptionScreen.kt:184:25 'LinearProgressIndicator(Float, Modifier = ..., Color = ..., Color = ..., StrokeCap = ...): Unit' is deprecated. Use the overload that takes `progress` as a lambda
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/support/HelpSupportScreen.kt:48:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/utils/AutoCropProcessor.kt:52:44 'initDebug(): Boolean' is deprecated. Deprecated in Java
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/utils/AutoCropProcessor.kt:86:105 Elvis operator (?:) always returns the left operand of non-nullable type Bitmap.Config
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/utils/AutoCropProcessor.kt:149:65 Elvis operator (?:) always returns the left operand of non-nullable type Bitmap.Config
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/utils/AutoCropProcessor.kt:224:17 Variable 'pointsRef' is assigned but never accessed
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/utils/AutoCropProcessor.kt:245:17 The value 'quad.points' assigned to 'var pointsRef: List<Point>? defined in com.lockletpro.utils.AutoCropProcessor.detectAndCrop.`<anonymous>`' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/utils/AutoCropProcessor.kt:354:32 Unnecessary non-null assertion (!!) on a non-null receiver of type Mat
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/utils/AutoCropProcessor.kt:411:24 Unnecessary non-null assertion (!!) on a non-null receiver of type Mat
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/utils/Constants.kt:30:44 'InsertDriveFile: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.InsertDriveFile
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/utils/DocumentEdgeDetector.kt:52:21 Variable 'scale' initializer is redundant
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/utils/DocumentEdgeDetector.kt:201:13 The value 'null' assigned to 'var kernel: Mat? defined in com.lockletpro.utils.DocumentEdgeDetector.detectQuadFromMat' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/utils/DocumentEdgeDetector.kt:264:28 Unnecessary safe call on a non-null receiver of type MatOfPoint2f?
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/utils/DocumentEdgeDetector.kt:265:30 Unnecessary safe call on a non-null receiver of type MatOfPoint2f?
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/utils/DocumentEdgeDetector.kt:345:24 Unnecessary safe call on a non-null receiver of type MatOfPoint2f?
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/utils/DocumentEdgeDetector.kt:346:26 Unnecessary safe call on a non-null receiver of type MatOfPoint2f?
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/utils/DocumentEdgeDetector.kt:416:24 Unnecessary safe call on a non-null receiver of type MatOfPoint2f?
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/utils/DocumentEdgeDetector.kt:417:26 Unnecessary safe call on a non-null receiver of type MatOfPoint2f?
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/utils/NetworkMonitor.kt:51:25 Unnecessary safe call on a non-null receiver of type NetworkCapabilities?
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/utils/ReminderScheduler.kt:52:17 Variable 'delayMillis' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/viewmodel/ActivityLogViewModel.kt:79:37 'Login: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Login
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/viewmodel/DocumentDetailViewModel.kt:146:13 Variable 'doc' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/viewmodel/PreviewViewModel.kt:64:85 Unnecessary non-null assertion (!!) on a non-null receiver of type String
+
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:mergeProjectDexDebug UP-TO-DATE
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDebug
+
+BUILD SUCCESSFUL in 1m 33s
+82 actionable tasks: 14 executed, 68 up-to-date

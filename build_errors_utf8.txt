@@ -1,0 +1,169 @@
+﻿
+> Configure project :sdk
+Configure OpenCV with Kotlin
+OpenCV: 4.12.0 D:\Antigravity Projects\tests\LockletPro\sdk\build.gradle
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :sdk:preBuild UP-TO-DATE
+> Task :sdk:preDebugBuild UP-TO-DATE
+> Task :sdk:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:processDebugGoogleServices UP-TO-DATE
+> Task :sdk:generateDebugResValues UP-TO-DATE
+> Task :sdk:generateDebugResources UP-TO-DATE
+> Task :sdk:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :sdk:extractDeepLinksDebug UP-TO-DATE
+> Task :sdk:processDebugManifest UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :sdk:compileDebugLibraryResources UP-TO-DATE
+> Task :sdk:parseDebugLocalResources UP-TO-DATE
+> Task :sdk:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :sdk:checkKotlinGradlePluginConfigurationErrors
+> Task :sdk:generateDebugBuildConfig UP-TO-DATE
+> Task :sdk:compileDebugKotlin UP-TO-DATE
+> Task :sdk:javaPreCompileDebug UP-TO-DATE
+> Task :sdk:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sdk:bundleLibCompileToJarDebug UP-TO-DATE
+
+> Task :app:compileDebugKotlin
+./gradlew : e: file:///
+D:/Antigravity%20Projec
+ts/tests/LockletPro/app
+/src/main/java/com/lock
+letpro/ui/screens/docum
+ent/DocumentsScreen.kt:
+701:40 Unresolved 
+reference: MutableInter
+actionSource
+At line:1 char:1
++ ./gradlew 
+compileDebugKotlin 
+--console=plain > 
+build_errors.txt 2>&1; 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (e: file:///D:   
+ /A...teractionSour    
+ce:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+e: file:///D:/Antigravi
+ty%20Projects/tests/Loc
+kletPro/app/src/main/ja
+va/com/lockletpro/ui/sc
+reens/document/Document
+sScreen.kt:702:40 
+Unresolved reference: 
+collectIsPressedAsState
+e: file:///D:/Antigravi
+ty%20Projects/tests/Loc
+kletPro/app/src/main/ja
+va/com/lockletpro/ui/sc
+reens/document/Document
+sScreen.kt:712:14 
+Unresolved reference: 
+scale
+e: file:///D:/Antigravi
+ty%20Projects/tests/Loc
+kletPro/app/src/main/ja
+va/com/lockletpro/ui/sc
+reens/document/Document
+sScreen.kt:725:59 
+Unresolved reference: M
+utableInteractionSource
+e: file:///D:/Antigravi
+ty%20Projects/tests/Loc
+kletPro/app/src/main/ja
+va/com/lockletpro/ui/sc
+reens/document/Document
+sScreen.kt:726:66 
+Unresolved reference: 
+collectIsPressedAsState
+e: file:///D:/Antigravi
+ty%20Projects/tests/Loc
+kletPro/app/src/main/ja
+va/com/lockletpro/ui/sc
+reens/document/Document
+sScreen.kt:736:26 
+Unresolved reference: 
+scale
+e: file:///D:/Antigravi
+ty%20Projects/tests/Loc
+kletPro/app/src/main/ja
+va/com/lockletpro/ui/sc
+reens/document/Document
+sScreen.kt:780:40 
+Unresolved reference: M
+utableInteractionSource
+e: file:///D:/Antigravi
+ty%20Projects/tests/Loc
+kletPro/app/src/main/ja
+va/com/lockletpro/ui/sc
+reens/document/Document
+sScreen.kt:781:40 
+Unresolved reference: 
+collectIsPressedAsState
+e: file:///D:/Antigravi
+ty%20Projects/tests/Loc
+kletPro/app/src/main/ja
+va/com/lockletpro/ui/sc
+reens/document/Document
+sScreen.kt:814:14 
+Unresolved reference: 
+scale
+
+> Task :app:compileDebugKotlin FAILED
+
+FAILURE: Build failed 
+with an exception.
+
+* What went wrong:
+Execution failed for 
+task ':app:compileDebug
+Kotlin'.
+> A failure occurred 
+while executing org.jet
+brains.kotlin.compilerR
+unner.GradleCompilerRun
+nerWithWorkers$GradleKo
+tlinCompilerWorkAction
+   > Compilation 
+error. See log for 
+more details
+
+* Try:
+> Run with 
+--stacktrace option to 
+get the stack trace.
+> Run with --info or 
+--debug option to get 
+more log output.
+> Run with --scan to 
+get full insights.
+> Get more help at http
+s://help.gradle.org.
+
+BUILD FAILED in 20s
+30 actionable tasks: 3 executed, 27 up-to-date

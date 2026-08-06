@@ -1,0 +1,67 @@
+> Task :app:clean
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:generateDebugResValues
+> Task :app:processDebugGoogleServices
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:checkDebugAarMetadata
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:parseDebugLocalResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugJniLibFolders
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:processDebugManifestForPackage
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeLibDexDebug
+> Task :app:mergeDebugResources
+> Task :app:processDebugResources
+> Task :app:mergeExtDexDebug
+
+> Task :app:compileDebugKotlin
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/components/FilterSortBar.kt:128:52 'Sort: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Sort
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/auth/ForgotPasswordScreen.kt:62:38 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/DocumentDetailScreen.kt:84:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/DocumentsScreen.kt:47:5 Parameter 'onUploadClick' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/DocumentsScreen.kt:102:90 'ViewList: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ViewList
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/UploadDocumentScreen.kt:74:9 Variable 'scope' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/UploadDocumentScreen.kt:157:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/document/UploadDocumentScreen.kt:302:42 'Notes: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Notes
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/home/HomeScreen.kt:46:5 Parameter 'onNavigateToProfile' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/home/HomeScreen.kt:47:5 Parameter 'onNavigateToSettings' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/profile/ProfileScreen.kt:48:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/profile/ProfileScreen.kt:173:35 'ExitToApp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ExitToApp
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/settings/SecuritySettingsScreen.kt:58:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/settings/SettingsScreen.kt:45:43 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/settings/SettingsScreen.kt:191:35 'Logout: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Logout
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/ui/screens/splash/SplashScreen.kt:44:9 Variable 'scaleAnim' is never used
+w: file:///D:/Antigravity%20Projects/tests/LockletPro/app/src/main/java/com/lockletpro/utils/Constants.kt:28:44 'InsertDriveFile: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.InsertDriveFile
+
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:dexBuilderDebug
+> Task :app:processDebugJavaRes
+> Task :app:mergeDebugGlobalSynthetics
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+
+BUILD SUCCESSFUL in 1m 2s
+35 actionable tasks: 35 executed
