@@ -1,7 +1,6 @@
 # LOCKLET PRO - PROFILE SCREEN FORENSIC UX & STRUCTURE AUDIT
 
 ## PHASE 1 - CURRENT PROFILE INVENTORY
-
 The `ProfileScreen.kt` currently defines the following stacked layout:
 
 1. **Header Section** (Top Bar) - standard non-card layout. Triggers `onNavigateBack`.
